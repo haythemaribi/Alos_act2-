@@ -8,7 +8,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "dev": "node server"
+    "dev": "node server",
+    "watch": "nodemon server"
   },
   "repository": {
     "type": "git",
