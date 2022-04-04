@@ -1,13 +1,13 @@
-const express = require("express");
-const route = express().Router();
+const express = require('express')
+const router = express.Router()
 const recipes = require("../../recipes");
 
 // GET all recipe
-route.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.json(recipes);
 });
 // GET single recipe
-route.get("/:id", (req, res) => {
+router.get("/:id", (req, res) => {
   const found = recipes.some((recipe) => recipe.id === parseInt(req.params.id));
   if (found) {
     res.json(recipes.filter((recipe) => recipe.id === parseInt(req.params.id)));
