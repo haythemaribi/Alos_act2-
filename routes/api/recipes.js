@@ -5,13 +5,15 @@ const recipes = require("../../recipes");
 
 // GET all recipes
 router.get("/", (req, res) => {
-  res.json(recipes);
+  res.status(200).json(recipes);
 });
 // GET single recipe by id
 router.get("/:id", (req, res) => {
   const found = recipes.some((recipe) => recipe.id === parseInt(req.params.id));
   if (found) {
-    res.json(recipes.filter((recipe) => recipe.id === parseInt(req.params.id)));
+    res
+      .status(200)
+      .json(recipes.filter((recipe) => recipe.id === parseInt(req.params.id)));
   } else {
     res.status(400).json({ message: "Recipe not found" });
   }
@@ -27,14 +29,14 @@ router.post("/", (req, res) => {
     cuisines: req.body.cuisines,
     occasions: req.body.occasions,
     instructions: req.body.instructions,
-    extendedIngredients: req.body.extendedIngredients,
+    ingredients: req.body.ingredients,
     aggregateLikes: 0,
   };
   if (!newRecipe.title) {
     return res.status(400).json({ message: "Recipe title is required" });
   }
   recipes.push(newRecipe);
-  res.json(recipes);
+  res.status(201).json(recipes);
 });
 
 // PUT recipe (update)
@@ -60,16 +62,16 @@ router.put("/:id", (req, res) => {
         recipe.instructions = updRecipe.instructions
           ? updRecipe.instructions
           : recipe.instructions;
-        recipe.extendedIngredients = updRecipe.extendedIngredients
-          ? updRecipe.extendedIngredients
-          : recipe.extendedIngredients;
+        recipe.ingredients = updRecipe.ingredients
+          ? updRecipe.ingredients
+          : recipe.ingredients;
         recipe.aggregateLikes = updRecipe.aggregateLikes
           ? updRecipe.aggregateLikes
           : recipe.aggregateLikes;
         res.json({ message: "Recipe updated", recipe });
       }
     });
-    res.json(recipes);
+    res.status(201).json(recipes);
   } else {
     res.status(400).json({ message: "Recipe not found" });
   }

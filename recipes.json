@@ -1,7 +1,7 @@
 [
   {
     "aggregateLikes": 11,
-    "extendedIngredients": [
+    "ingredients": [
       {
         "id": 19335,
         "name": "sugar",
@@ -79,7 +79,7 @@
   },
   {
     "aggregateLikes": 382,
-    "extendedIngredients": [
+    "ingredients": [
       {
         "id": 1022009,
         "name": "ancho chili powder",
@@ -157,7 +157,7 @@
   },
   {
     "aggregateLikes": 13,
-    "extendedIngredients": [
+    "ingredients": [
       {
         "id": 1001,
         "name": "butter",
