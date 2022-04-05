@@ -3,49 +3,41 @@
     "aggregateLikes": 11,
     "ingredients": [
       {
-        "id": 19335,
         "name": "sugar",
         "amount": 1,
         "unit": "cup"
       },
       {
-        "id": 1123,
         "name": "egg",
         "amount": 1,
         "unit": ""
       },
       {
-        "id": 2050,
         "name": "vanilla extract",
         "amount": 2,
         "unit": "teaspoons"
       },
       {
-        "id": 10114037,
         "name": "brandy",
         "amount": 0.25,
         "unit": "cup"
       },
       {
-        "id": 2002,
         "name": "anise seeds",
         "amount": 1,
         "unit": "teaspoon"
       },
       {
-        "id": 20081,
         "name": "all purpose flour",
         "amount": 3,
         "unit": "cups"
       },
       {
-        "id": 2047,
         "name": "salt",
         "amount": 1,
         "unit": "teaspoon"
       },
       {
-        "id": 18371,
         "name": "baking powder",
         "amount": 1,
         "unit": "teaspoon"
@@ -81,49 +73,41 @@
     "aggregateLikes": 382,
     "ingredients": [
       {
-        "id": 1022009,
         "name": "ancho chili powder",
         "amount": 1,
         "unit": "tsp"
       },
       {
-        "id": 2004,
         "name": "bay leaves",
         "amount": 3,
         "unit": ""
       },
       {
-        "id": 1001,
         "name": "butter",
         "amount": 1,
         "unit": "Tbsp"
       },
       {
-        "id": 10016034,
         "name": "canned red beans",
         "amount": 30,
         "unit": "oz"
       },
       {
-        "id": 10011693,
         "name": "canned tomatoes",
         "amount": 15,
         "unit": "oz"
       },
       {
-        "id": 2031,
         "name": "cayenne pepper",
         "amount": 1,
         "unit": "tsp"
       },
       {
-        "id": 10011282,
         "name": "red onion",
         "amount": 0.5,
         "unit": ""
       },
       {
-        "id": 20444,
         "name": "rice",
         "amount": 1,
         "unit": "cup"
@@ -159,49 +143,41 @@
     "aggregateLikes": 13,
     "ingredients": [
       {
-        "id": 1001,
         "name": "butter",
         "amount": 125,
         "unit": "g"
       },
       {
-        "id": 19335,
         "name": "sugar",
         "amount": 1,
         "unit": "cup"
       },
       {
-        "id": 1123,
         "name": "eggs",
         "amount": 2,
         "unit": ""
       },
       {
-        "id": 20129,
         "name": "self raising flour",
         "amount": 1.25,
         "unit": "cup"
       },
       {
-        "id": 12104,
         "name": "coconut",
         "amount": 0.25,
         "unit": "cup"
       },
       {
-        "id": 1001116,
         "name": "natural yoghurt",
         "amount": 0.5,
         "unit": "cup"
       },
       {
-        "id": 9152,
         "name": "juice of lemon",
         "amount": 1,
         "unit": ""
       },
       {
-        "id": 9316,
         "name": "strawberries",
         "amount": 150,
         "unit": "g"
