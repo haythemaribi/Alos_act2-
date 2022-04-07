@@ -22,6 +22,8 @@ router.get("/:id", (req, res) => {
 // POST recipe (create)
 router.post("/", (req, res) => {
   const newRecipe = {
+    aggregateLikes: 0,
+    ingredients: req.body.ingredients,
     id: uuid.v4(),
     title: req.body.title,
     readyInMinutes: req.body.readyInMinutes,
@@ -29,8 +31,6 @@ router.post("/", (req, res) => {
     cuisines: req.body.cuisines,
     occasions: req.body.occasions,
     instructions: req.body.instructions,
-    ingredients: req.body.ingredients,
-    aggregateLikes: 0,
   };
   if (!newRecipe.title) {
     return res.status(400).json({ message: "Recipe title is required" });
