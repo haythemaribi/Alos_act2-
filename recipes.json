@@ -1,0 +1,196 @@
+[
+  {
+    "aggregateLikes": 11,
+    "ingredients": [
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "egg",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 2,
+        "unit": "teaspoons"
+      },
+      {
+        "name": "brandy",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "anise seeds",
+        "amount": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "name": "all purpose flour",
+        "amount": 3,
+        "unit": "cups"
+      },
+      {
+        "name": "salt",
+        "amount": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "id": 2010,
+        "name": "cinnamon",
+        "amount": 0.25,
+        "unit": "teaspoon"
+      },
+      {
+        "id": 19335,
+        "name": "sugar",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "id": null,
+        "name": "lard",
+        "amount": 1,
+        "unit": "cup"
+      }
+    ],
+    "id": 1,
+    "title": "Authentic Biscochitos",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "cuisines": [],
+    "occasions": ["Eid al-Fitr"],
+    "instructions": "In stand mixer, cream together lard and sugar on medium speed until fluffy. With mixer running on low, add egg, vanilla extract, brandy, and anise seeds and mix until homogeneous. Add flour, salt, and baking powder and mix just until dough forms into cohesive ball.\nForm dough into two cylinders about 1 1/2 to 2 inches in diameter. Chill for 2 hours or wrap tightly in plastic wrap and store in refrigerator for up to 3 days. For longer storage, freeze logs tightly wrapped for several months. Defrost in refrigerator for 1 day before using.\nAdjust oven rack to middle position and preheat oven to 350F. Combine sugar and cinnamon in small bowl and set aside. Cut cylinders into 1/4 inch disks and on ungreased cookie sheets leaving 1/2-inch gap between cookies. Bake until golden brown, about 12 minutes.\nDip rim of each cookie into cinnamon sugar mixture. Let cool on racks and store at room temperature in air-tight container for up to 5 days."
+  },
+  {
+    "aggregateLikes": 382,
+    "ingredients": [
+      {
+        "name": "ancho chili powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "bay leaves",
+        "amount": 3,
+        "unit": ""
+      },
+      {
+        "name": "butter",
+        "amount": 1,
+        "unit": "Tbsp"
+      },
+      {
+        "name": "canned red beans",
+        "amount": 30,
+        "unit": "oz"
+      },
+      {
+        "name": "canned tomatoes",
+        "amount": 15,
+        "unit": "oz"
+      },
+      {
+        "name": "cayenne pepper",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "red onion",
+        "amount": 0.5,
+        "unit": ""
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "id": 1017063,
+        "name": "sausage",
+        "amount": 18,
+        "unit": "oz"
+      },
+      {
+        "id": 14412,
+        "name": "water",
+        "amount": 2.5,
+        "unit": "cups"
+      },
+      {
+        "id": 2032,
+        "name": "white pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "id": 2,
+    "title": "Slow Cooker Red Beans and Rice",
+    "readyInMinutes": 45,
+    "servings": 5,
+    "cuisines": ["Algerian"],
+    "occasions": ["Ramadan"],
+    "instructions": "Place all of your ingredients into the slow cooker and stir to mix everything well. Allow to cook all day on low for 6 hours (if with rice), or longer if needed without rice. Serve with cornbread and enjoy! (I like to take a whole piece and mix it up really well, YUM!)"
+  },
+  {
+    "aggregateLikes": 13,
+    "ingredients": [
+      {
+        "name": "butter",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": "sugar",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "eggs",
+        "amount": 2,
+        "unit": ""
+      },
+      {
+        "name": "self raising flour",
+        "amount": 1.25,
+        "unit": "cup"
+      },
+      {
+        "name": "coconut",
+        "amount": 0.25,
+        "unit": "cup"
+      },
+      {
+        "name": "natural yoghurt",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "name": "juice of lemon",
+        "amount": 1,
+        "unit": ""
+      },
+      {
+        "name": "strawberries",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "id": 3,
+    "title": "Lemon and Strawberry Loaf",
+    "readyInMinutes": 45,
+    "servings": 8,
+    "summary": "The recipe Lemon and Strawberry Loaf can be made <b>in around about 45 minutes</b>. One portion of this dish contains around <b>5g of protein</b>, <b>15g of fat</b>, and a total of <b>320 calories</b>. This recipe serves 8 and costs 52 cents per serving. It is brought to you by Foodista. It works well as a very reasonably priced side dish. It can be enjoyed any time, but it is especially good for <b>Mother's Day</b>. 13 people were impressed by this recipe. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. Head to the store and pick up natural yoghurt, sugar, dessicated coconut, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 14%</b>. This score is not so amazing. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/glazed-strawberry-lemon-loaf-858918\">Glazed Strawberry Lemon Loaf</a>, <a href=\"https://spoonacular.com/recipes/lemon-poppy-seed-loaf-with-vanilla-lemon-glaze-769978\">Lemon Poppy Seed Loaf with Vanilla Lemon Glaze</a>, and <a href=\"https://spoonacular.com/recipes/strawberry-lemonade-loaf-780752\">Strawberry Lemonade Loaf</a>.",
+    "cuisines": ["International"],
+    "dishTypes": ["side dish"],
+    "occasions": ["mother's day"],
+    "instructions": "Preheat the oven to 180C. Line a 23cm x 12cm loaf tin with baking paper.\nBeat butter and sugar until pale and creamy. Add eggs, one at a time beating well after each addition. Then add lemon rind and juice.\nStir in flour, dessicated coconut, yoghurt and strawberries with a rubber spatula.\nPour mixture into loaf tin and smooth the top.\nBake for 50-60 minutes or until a skewer inserted in the centre comes out clean.\nCool in the tin for 10 minutes, then turn out onto a wire rack to cool completely."
+  }
+]

@@ -1,15 +1,26 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.3"
+=======
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+>>>>>>> 74f16a9806bc941181a0e3bbc515d232a37b17a5
   },
   "name": "alos_act2",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
+<<<<<<< HEAD
   "devDependencies": {},
   "scripts": {
     "dev": "node server",
     "watch": "nodemon server"
+=======
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+>>>>>>> 74f16a9806bc941181a0e3bbc515d232a37b17a5
   },
   "repository": {
     "type": "git",
