@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "express": "^4.17.3",
-    "uuid": "^8.3.2"
+    "joi": "^17.6.0"
   },
   "name": "alos_act2",
   "description": "",

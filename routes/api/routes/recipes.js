@@ -1,7 +1,9 @@
 const express = require("express");
-const uuid = require("uuid");
 const router = express.Router();
 const recipes = require("../../recipes");
+const recipeSchema = require("./validator/recipeValidation");
+const validator = require("./validator/validator");
+const { createRecipe } = require("./controllers/RecipeController");
 
 // GET all recipes
 router.get("/", (req, res) => {
@@ -20,24 +22,7 @@ router.get("/:id", (req, res) => {
 });
 
 // POST recipe (create)
-router.post("/", (req, res) => {
-  const newRecipe = {
-    aggregateLikes: 0,
-    ingredients: req.body.ingredients,
-    id: uuid.v4(),
-    title: req.body.title,
-    readyInMinutes: req.body.readyInMinutes,
-    servings: req.body.servings,
-    cuisines: req.body.cuisines,
-    occasions: req.body.occasions,
-    instructions: req.body.instructions,
-  };
-  if (!newRecipe.title) {
-    return res.status(400).json({ message: "Recipe title is required" });
-  }
-  recipes.push(newRecipe);
-  res.status(201).json(recipes);
-});
+router.post("/", validator(recipeSchema.createRecipe, "body"), createRecipe);
 
 // PUT recipe (update)
 router.put("/:id", (req, res) => {
