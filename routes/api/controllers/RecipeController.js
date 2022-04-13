@@ -29,6 +29,8 @@ const createRecipe = async (req, res) => {
   } = req.body;
 
   const newRecipe = await recipes.push({
+    aggregateLikes: 0,
+    ingredients: ingredients,
     id: recipes.length + 1,
     title: title,
     readyInMinutes: readyInMinutes,
@@ -36,8 +38,6 @@ const createRecipe = async (req, res) => {
     cuisines: cuisines,
     occasions: occasions,
     instructions: instructions,
-    ingredients: ingredients,
-    aggregateLikes: 0,
   });
   return res.status(201).json(recipes);
 };
