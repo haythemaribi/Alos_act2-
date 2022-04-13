@@ -1,15 +1,31 @@
 const joi = require("joi");
 
+const ingredientSchema = {
+  name: joi.string().required().messages({
+    "string.base": "Title must be a string",
+    "string.empty": "Title cannot be empty",
+    "any.required": "Title is required",
+  }),
+  amount: joi.number().required().messages({
+    "number.base": "Amount must be a number",
+    "number.min": "Amount must be greater than 0",
+    "any.required": "Amount is required",
+  }),
+  unit: joi.string().required().messages({
+    "string.base": "Unit must be a string",
+    "string.empty": "Unit cannot be empty",
+  }),
+};
+
 const recipeSchema = {
   aggregateLikes: joi.number().messages({
     "number.base": "aggregateLikes must be a number",
     "number.min": "aggregateLikes must be greater than 0",
   }),
   id: joi.number(),
-  ingredients: joi.array().items(joi.string()).required().messages({
-    "array.base": "Ingredients must be an array",
-    "array.empty": "Ingredients cannot be empty",
-    "any.required": "Ingredients is required",
+  ingredients: joi.array().items(ingredientSchema).required().messages({
+    "array.base": "ingredients must be an array",
+    "array.required": "ingredients is required",
   }),
   title: joi.string().required().messages({
     "string.base": "Title must be a string",
