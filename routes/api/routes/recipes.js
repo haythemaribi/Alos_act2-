@@ -8,6 +8,7 @@ const {
   readRecipe,
   createRecipe,
   updateRecipe,
+  deleteRecipe,
 } = require("../controllers/RecipeController");
 
 // GET all recipes
@@ -19,24 +20,9 @@ router.get("/:id", readRecipe);
 router.post("/", validator(recipeSchema.createRecipe, "body"), createRecipe);
 
 // PUT recipe (update)
-router.put(
-  "/:id",
-  /* validator(recipeSchema.updateRecipe, "body"), */ updateRecipe
-);
+router.put("/:id", updateRecipe);
 
 // DELETE recipe (delete)
-router.delete("/:id", (req, res) => {
-  const found = recipes.some((recipe) => recipe.id === parseInt(req.params.id));
-  if (found) {
-    res.json({
-      message: "Recipe deleted",
-      recipes: recipes.filter(
-        (recipe) => recipe.id !== parseInt(req.params.id)
-      ),
-    });
-  } else {
-    res.status(400).json({ message: "Recipe not found" });
-  }
-});
+router.delete("/:id", deleteRecipe);
 
 module.exports = router;
