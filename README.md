@@ -28,9 +28,9 @@ Or to start the server in development mode.
 npm run dev
 ```
 
-### Test in postman
+### Test in Postman
 
-To test the endpints in postman, you can import the endpoints collection json file in postman `Recipes_CRUD_api.postman_collection.json`.
+To test the endpoints in postman, you can import the endpoints collection json file in postman `Recipes_CRUD_api.postman_collection.json`.
 
 ## Endpoints
 
