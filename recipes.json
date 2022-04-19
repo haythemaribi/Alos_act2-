@@ -10,7 +10,7 @@
       {
         "name": "egg",
         "amount": 1,
-        "unit": ""
+        "unit": "egg"
       },
       {
         "name": "vanilla extract",
@@ -65,7 +65,7 @@
     "title": "Authentic Biscochitos",
     "readyInMinutes": 45,
     "servings": 4,
-    "cuisines": [],
+    "cuisines": ["International"],
     "occasions": ["Eid al-Fitr"],
     "instructions": "In stand mixer, cream together lard and sugar on medium speed until fluffy. With mixer running on low, add egg, vanilla extract, brandy, and anise seeds and mix until homogeneous. Add flour, salt, and baking powder and mix just until dough forms into cohesive ball.\nForm dough into two cylinders about 1 1/2 to 2 inches in diameter. Chill for 2 hours or wrap tightly in plastic wrap and store in refrigerator for up to 3 days. For longer storage, freeze logs tightly wrapped for several months. Defrost in refrigerator for 1 day before using.\nAdjust oven rack to middle position and preheat oven to 350F. Combine sugar and cinnamon in small bowl and set aside. Cut cylinders into 1/4 inch disks and on ungreased cookie sheets leaving 1/2-inch gap between cookies. Bake until golden brown, about 12 minutes.\nDip rim of each cookie into cinnamon sugar mixture. Let cool on racks and store at room temperature in air-tight container for up to 5 days."
   },
@@ -80,7 +80,7 @@
       {
         "name": "bay leaves",
         "amount": 3,
-        "unit": ""
+        "unit": "leaves"
       },
       {
         "name": "butter",
@@ -105,7 +105,7 @@
       {
         "name": "red onion",
         "amount": 0.5,
-        "unit": ""
+        "unit": "onion"
       },
       {
         "name": "rice",
@@ -155,7 +155,7 @@
       {
         "name": "eggs",
         "amount": 2,
-        "unit": ""
+        "unit": "egg"
       },
       {
         "name": "self raising flour",
@@ -175,7 +175,7 @@
       {
         "name": "juice of lemon",
         "amount": 1,
-        "unit": ""
+        "unit": "lemon"
       },
       {
         "name": "strawberries",

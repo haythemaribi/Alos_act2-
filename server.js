@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static("./routes/web"));
-app.use("/api/recipes", require("./routes/api/recipes"));
+app.use("/api/recipes", require("./routes/api/routes/recipes"));
 
 app.listen(port, () => {
   console.log(`Site running on port ${port}`);
