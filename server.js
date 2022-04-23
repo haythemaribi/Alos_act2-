@@ -1,15 +1,24 @@
 const express = require("express");
 const app = express();
 const port = 3001;
-
-<<<<<<< HEAD
+const userRouters=require('./routes/api/route/user-router')
+const connection = new Sequelize("dbrecipes", "root", "pass", {
+  host: "127.0.0.1",
+  dialect: "sqlite"
+})
+connection.sync()
+    .then(() => {
+        console.log("Connection to DB was successful");
+    })
+    .catch(err => {
+        console.error("Unable to connect to DB", err);
+    });
 app.get("/", (req, res) => {
   res.send("<h1>Hello World!</h1>");
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-=======
+app.use('/',userRouters);
+
 // Body parser middleware
 app.use(express.json());
 // form submmission middleware
@@ -17,8 +26,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static("./routes/web"));
 app.use("/api/recipes", require("./routes/api/routes/recipes"));
-
-app.listen(port, () => {
-  console.log(`Site running on port ${port}`);
->>>>>>> 74f16a9806bc941181a0e3bbc515d232a37b17a5
-});
+connection.sequelize.sync().then(()=>{
+  app.listen(port, () => {console.log(`Server is running on port ${port}`);})
+})
