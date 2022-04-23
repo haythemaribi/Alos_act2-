@@ -6,7 +6,7 @@
     "sequelize-cli": "^6.4.1",
     "sqlite3": "^5.0.5"
   },
-  "name": "alos_act2",
+  "name": "alos_act3",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
